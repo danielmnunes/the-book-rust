@@ -1,6 +1,6 @@
 fn main() {
-    // tipos numericos
-    let x: usize = 2;
-    let y: u32 = 3;
+    // tipos de ponto flutuante
+    let x = 2.0;
+    let y: f32 = 3.1;
     println!("{x} e {y}");
 }
