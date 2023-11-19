@@ -1,6 +1,15 @@
-
-const PONTOS_MAX: i32 = 100_000;
-
 fn main() {
-    println!("{PONTOS_MAX}");
+    // Definição com let
+    let x = 5;
+
+    // Shadowing
+    let x = x + 1;
+    let x = x * 2;
+
+    println!("valor de x é: {x}");
+
+    let espacos = "   ";
+    // espacos = espacos.len(); // não funciona'
+    let espacos = espacos.len();
+    println!("espaços: {espacos}")
 }
